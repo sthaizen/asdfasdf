@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ZapList – Modern Productivity & Task Management App
 
-## Getting Started
+ZapList is a feature-rich, modern to-do list and productivity web app built with React, TailwindCSS, and Material UI icons. It combines task management, time tracking, and productivity tools into a single lightweight application with local persistence.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Task Management: Add, edit, delete, search, and filter tasks by day, week, month, or custom date
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Pomodoro Timer: Built-in focus and break timer with desktop notifications
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Mini Calendar View: Navigate and filter tasks using a calendar month view
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Smart Reminders: Set task reminders with browser notifications
 
-## Learn More
+Comments on Tasks: Add notes and discussions inside each task
 
-To learn more about Next.js, take a look at the following resources:
+Voice Input: Use speech recognition to quickly add tasks (where supported)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Gamification: Earn points for completing tasks (basic streaks and points system)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Collaboration Features (Demo Mode): Shared lists, task assignments, version history
 
-## Deploy on Vercel
+Offline Support: Tasks stored in localStorage for persistence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+React (Next.js client components)
+
+TailwindCSS for styling
+
+Material UI Icons for modern UI elements
+
+LocalStorage for offline persistence
+
+Future Improvements
+
+Real backend with authentication and cloud sync
+
+Kanban board mode with drag-and-drop
+
+Enhanced habit tracking and streak visualization
