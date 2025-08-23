@@ -90,18 +90,7 @@ Place the ZapList component code in `app/page.tsx` (or your chosen entry). Ensur
 
 ---
 
-## Example (abbreviated)
 
-```
-Add a task → "Write report", due today
-Start Pomodoro → Focus countdown begins
-Mark task complete → checkbox ✓
-Set reminder → 15 minutes → notification appears
-Filter → Today → shows today’s tasks
-Select a date in Mini Calendar → view tasks for that day
-```
-
----
 
 ## Testing (what’s covered)
 
@@ -124,6 +113,4 @@ Select a date in Mini Calendar → view tasks for that day
 
 ---
 
-## License
 
-Add a license (e.g., MIT) to clarify usage and contributions.
